@@ -36,7 +36,7 @@
                 <li ><a class="header-list contact1 " href="tel:+380961111111">
                         <svg class="phone" width="10" height="16" >
                             <use href="./images/icons.svg#icon-smartphone"></use>
-                        </svg><sspan>+38 096 111 11 11</sspan></a></li>
+                        </svg><span>+38 096 111 11 11</span></a></li>
             </ul>
         </div>
     </header>
@@ -53,7 +53,17 @@
                 <div class="container hero-box ">
                     <h1 class="hero-heading">эффективные решения<br>
                     для вашего бизнеса</h1>
-                    <button class="hero-btn"  type="button">Заказать услугу</button>
+                    <button class="hero-btn"  type="button" data-modal-open >Заказать услугу</button>
+                        <div class="backdrop is-hidden" data-modal>
+                            <div class="modal is-hiden" modal>
+                                <button type="button" class="close-hero-btn" data-modal-close>
+                                    <svg class="x" width="11" height="11" fill="#000000">
+                                        <use href="./images/icons.svg#icon-x"></use>
+                                    </svg>
+                                </button>
+                                <p></p>
+                            </div>
+                        </div>
                 </div>
         </section>
 
@@ -121,16 +131,25 @@
             <h2 class="trades-heading">Чем мы занимаемся</h2>
             <ul class="list trades-list">
                 <li>
-                    <img src="./images/1.jpg"  alt="руки печатают код для веб сайта" 
-                width="370" height="294"/>
+                    <div class="trade-img-box">
+                        <img class="trades-img" src="./images/1.jpg"  alt="руки печатают код для веб сайта" 
+                        width="370" height="294"/>
+                        <p>Десктопные приложения</p>
+                    </div>
                 </li>
                 <li>
-                    <img  src="./images/2.jpg"  alt="одна рука держит телефон,вторая печатает на ноутбуке"
-                width="370" height="294"/>
+                    <div class="trade-img-box">
+                        <img class="trades-img" src="./images/2.jpg"  alt="одна рука держит телефон,вторая печатает на ноутбуке"
+                        width="370" height="294"/>
+                        <p>мобильные приложения</p>
+                    </div>
                 </li>
                 <li>
-                    <img  src="./images/3.jpg"  alt="руки рисуют на планшете с помощью ручки" 
-                    width="370" height="294"/>
+                    <div class="trade-img-box">
+                        <img class="trades-img" src="./images/3.jpg"  alt="руки рисуют на планшете с помощью ручки" 
+                        width="370" height="294"/>
+                        <p>дизайнерские решения</p>
+                    </div>
                 </li>
             </ul>
             </div>
@@ -362,5 +381,6 @@
             </div>
         </div>
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 </html> 
