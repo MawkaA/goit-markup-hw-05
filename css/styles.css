@@ -119,38 +119,35 @@ img {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-list:hover, 
 .header-list:focus,
 .header-list.active { 
     color: var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .header-list:hover svg {
     fill: var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .header-list:focus svg {
     fill: var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-list:active svg {
     fill: var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-list.active {
     position: relative;
     text-decoration: none;
-    
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-list.active::after {
     position: absolute;
@@ -195,6 +192,8 @@ img {
     cursor: pointer;
     fill:#757575;
     max-height: 12px;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -206,6 +205,8 @@ img {
     cursor: pointer;
     max-height: 16px;
     fill:#757575;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -351,13 +352,12 @@ img {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 1);
+    
 }
 
 .close-hero-btn:hover,
 .close-hero-btn:hover svg {
     cursor: pointer;
-    transition-duration: 250ms;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
 /* ---------------------------about section2----------------- */
@@ -594,26 +594,26 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-link:hover,
 .team-link:focus,
 .team-link:active {
     background-color: var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-icon {
     fill: #afb1b8;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-link:hover .team-social-icon,
 .team-link:focus .team-social-icon,
 .team-link:active .team-social-icon {
     fill: var(--primary-white-color);
-    transition-duration: 250ms;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -661,19 +661,16 @@ img {
 .clients-link:hover {
     border-color: var(--accent-color);
     fill: var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .clients-link:hover svg {
     fill: var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .clients-link:focus svg {
     fill: var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .clients-list li:not(:last-of-type) {
@@ -689,12 +686,16 @@ img {
     border-radius: 4px;
     width: 170px;
     height: 92px;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-icon {
     object-fit: contain;
     object-position: center;
     fill: #afb1b8;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*------------------------------------FOOTER-----------------------*/
@@ -746,14 +747,15 @@ img {
     line-height: 1.7;
     color: var(--primary-white-color);
     text-decoration: none;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link:hover,
 .footer-link:focus,
 .footer-link:active { 
     color: var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .footer-contact {
@@ -804,14 +806,15 @@ img {
     height: 44px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
 .social-link:focus,
 .social-link:active {
     background-color: var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 /*----------------------------PORTFOLIO контент----------------------------------*/
@@ -856,7 +859,8 @@ img {
     height: 38px;
     min-width: 73px;
     padding: 6px 22px;
-    
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -869,8 +873,7 @@ img {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12),
         0 1px 2px 0 rgba(0, 0, 0, 0.08),
         0 3px 1px 0 rgba(0, 0, 0, 0.01);
-    transition-duration: 250ms;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 
@@ -892,6 +895,8 @@ img {
     padding: 0 auto;
     width: 370px;
     height: 404px;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-items li:hover,
@@ -899,8 +904,7 @@ img {
     box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16),
         0 4px 4px 0 rgba(0, 0, 0, 0.06),
         0 1px 1px 0 rgb(0,0,0, 0.12);
-    transition-duration: 250ms;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .items-img-box {
@@ -912,8 +916,7 @@ img {
 
 .portfolio-items li:hover .items-img-overlay {
     transform: translateY(0);
-    transition-duration: 250ms;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .items-img-overlay {
